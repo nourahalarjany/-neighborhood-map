@@ -1,0 +1,78 @@
+#map {
+    width: 80%;
+    height: 100vh;
+    border: dotted;
+    float: left;
+    box-sizing: border-box;
+}
+
+
+html, 
+body {
+    height: 80%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    bottom: 0px;
+    /*overflow: scroll;*/
+}
+
+
+#search-bar {
+    padding: 7px;
+    margin: 10px;
+    width: 70%;
+}
+
+
+.search-menu {
+    padding-left: 20px;
+    float: left;
+    width: 20%;
+    background-color: gray;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: scroll;
+}
+
+
+.locations-list {
+    border-color: #e6005c;
+    cursor: pointer;
+    list-style: none;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li {
+	font-family: "raleway", sans-serif;
+}
+
+
+h1 {
+	color: #DAA520;
+}
+
+
+li {
+    margin-bottom: 10px;
+}
+
+
+ul {
+  color: #8b008b;
+  border-left: dashed;
+  font-size: : 80px;
+}
+
+
+hr{
+    color: #FFA500;
+    border: double;
+}
